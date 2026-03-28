@@ -10,6 +10,6 @@ days = int(input())
 
 fine = calculate_fine(bt , days)
 
-print(f"Book: {book_title}")
+print(f"Book: {bt}")
 print(f"Days overdue: {days}")
 print(f"Fine: Rs. {fine}")
