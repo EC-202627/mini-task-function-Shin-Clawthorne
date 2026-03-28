@@ -7,8 +7,9 @@ def calculate_fine(bt , do , dr = 5.0 , mf = 150.0):
 
 bt = input()
 days = int(input())
+rate = float(input())
 
-fine = calculate_fine(bt , days)
+fine = calculate_fine(bt , days , rate)
 
 print(f"Book: {bt}")
 print(f"Days overdue: {days}")
