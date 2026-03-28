@@ -5,10 +5,11 @@ def calculate_fine(bt , do , dr = 5.0 , mf = 150.0):
         fine = mf
     return fine
 
-data = input().split()
-bt = " ".join(data[:-1])
-days = int(data[-1])
+bt = input()
+days = int(input())
 
 fine = calculate_fine(bt , days)
 
-print(f"book: {bt} Days overdue: {days} Fine: Rs. {fine}")
+print(f"Book: {book_title}")
+print(f"Days overdue: {days}")
+print(f"Fine: Rs. {fine}")
